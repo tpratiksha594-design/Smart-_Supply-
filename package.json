@@ -1,0 +1,25 @@
+{
+  "name": "supplysync",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Smart Supply Chain & Inventory Intelligence Platform",
+  "scripts": {
+    "dev:server": "npm --prefix server run dev",
+    "dev:client": "npm --prefix client run dev",
+    "build:server": "npm --prefix server run build",
+    "build:client": "npm --prefix client run build",
+    "build": "npm run build:server && npm run build:client",
+    "start": "npm --prefix server run start"
+  },
+  "keywords": [
+    "supply-chain",
+    "inventory",
+    "logistics",
+    "react",
+    "express",
+    "threejs",
+    "mysql"
+  ],
+  "author": "SupplySync Team",
+  "license": "MIT"
+}
